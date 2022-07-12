@@ -1,5 +1,5 @@
 
-const hobbies = ["Freeloader", "Depressed Student", "Football Lover"];
+const hobbies = ["Aspiring Web Developer", "Enthusiastic Student", "Football Lover"];
 
 let count = 0;
 let index = 0;
@@ -24,7 +24,7 @@ const typing = () => {
     setTimeout(typing, 150);
 };
 
-// typing();
+typing();
 
 //button click
 //name click
@@ -35,7 +35,7 @@ document.querySelector(".header_name").addEventListener("click", () => {
 //about click
 document.querySelector(".header_about").addEventListener("click", () => {
     console.log(document.querySelector(".about_section"))
-    // document.querySelector(".about_section").scrollIntoView();
+    document.querySelector(".about_section").scrollIntoView();
 });
 
 //contact click

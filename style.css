@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    cursor: pointer;
 }
 
 .header_name {
